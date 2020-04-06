@@ -22,7 +22,6 @@ import tensorflow.compat.v1 as tf
 import tensorflow_datasets as tfds
 
 tf.disable_v2_behavior()
-tf.enable_eager_execution()
 
 
 class MeshDatasetFnsTest(test_utils.FakeMixtureTest):
@@ -90,4 +89,5 @@ class MeshDatasetFnsTest(test_utils.FakeMixtureTest):
 
 
 if __name__ == "__main__":
+  tf.enable_eager_execution()
   absltest.main()

@@ -19,7 +19,6 @@ from t5.data import test_utils
 import tensorflow.compat.v1 as tf
 
 tf.disable_v2_behavior()
-tf.enable_eager_execution()
 
 mock = absltest.mock
 
@@ -53,4 +52,5 @@ class SentencepieceVocabularyTest(absltest.TestCase):
 
 
 if __name__ == "__main__":
+  tf.enable_eager_execution()
   absltest.main()

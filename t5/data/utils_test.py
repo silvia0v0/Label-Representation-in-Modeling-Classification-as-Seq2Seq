@@ -25,7 +25,6 @@ import tensorflow.compat.v1 as tf
 import tensorflow_datasets as tfds
 
 tf.disable_v2_behavior()
-tf.enable_eager_execution()
 
 TaskRegistry = utils.TaskRegistry
 mock = absltest.mock
@@ -380,4 +379,5 @@ class TasksTest(test_utils.FakeTaskTest):
 
 
 if __name__ == "__main__":
+  tf.enable_eager_execution()
   absltest.main()

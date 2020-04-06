@@ -44,9 +44,6 @@ import tensorflow_datasets as tfds
 
 tf.disable_v2_behavior()
 
-# Significantly speeds up preprocessing.
-tf.enable_eager_execution()
-
 FLAGS = flags.FLAGS
 
 flags.DEFINE_list(
@@ -392,4 +389,6 @@ def console_entry_point():
   app.run(main)
 
 if __name__ == "__main__":
+  # Significantly speeds up preprocessing.
+  tf.enable_eager_execution()
   console_entry_point()

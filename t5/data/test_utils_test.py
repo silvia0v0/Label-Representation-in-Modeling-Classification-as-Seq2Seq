@@ -19,7 +19,6 @@ from t5.data.test_utils import assert_dataset
 import tensorflow.compat.v1 as tf
 
 tf.disable_v2_behavior()
-tf.enable_eager_execution()
 
 
 # Note that the b'string' values are for PY3 to interpret as bytes literals,
@@ -44,4 +43,5 @@ class TestUtilsTest(absltest.TestCase):
 
 
 if __name__ == '__main__':
+  tf.enable_eager_execution()
   absltest.main()
