@@ -5,6 +5,6 @@
 
 ## Related Files:
 - [glue/cola] hf-cola.py
-- [glue/sst2] SST2.ipnyb (full dataset + sample)
-- [glue/mrpc] MRPC.ipnyb
-- [super_glue/copa] hf-copa.ipnyb, Sample-copa.ipnyb
+- [glue/sst2] SST2.ipynb (full dataset + sample)
+- [glue/mrpc] MRPC.ipynb
+- [super_glue/copa] hf-copa.ipynb, Sample-copa.ipynb
