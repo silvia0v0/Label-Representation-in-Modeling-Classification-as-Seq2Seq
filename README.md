@@ -11,6 +11,6 @@ Current version: [Label Representation in Modeling Classification as Seq2Seq](ht
 ## Related Files:
 - [glue/cola] [hf-cola.py](https://github.com/silvia0v0/Label-Representation-in-Modeling-Classification-as-Seq2Seq/blob/master/hf_cola.py)
 - [glue/sst2] [SST2.ipynb](https://github.com/silvia0v0/Label-Representation-in-Modeling-Classification-as-Seq2Seq/blob/master/SST2.ipynb)  (full dataset + sample)
-- [glue/mrpc] MRPC.ipynb
-- [super_glue/copa] hf-copa.ipynb, Sample-copa.ipynb
+- [glue/mrpc] [MRPC.ipynb](https://github.com/silvia0v0/Label-Representation-in-Modeling-Classification-as-Seq2Seq/blob/master/MRPC.ipynb)
+- [super_glue/copa] [hf-copa.ipynb](https://github.com/silvia0v0/Label-Representation-in-Modeling-Classification-as-Seq2Seq/blob/master/hf_copa.ipynb), Sample-copa.ipynb(https://github.com/silvia0v0/Label-Representation-in-Modeling-Classification-as-Seq2Seq/blob/master/Sample_copa.ipynb)
 
