@@ -4,7 +4,8 @@
 - Uses HfPyTorchModel to fine-tune on same tasks with different labels.
 
 ## Related Files:
-- [glue/cola] hf-cola.py
+- [glue/cola] (hf-cola.py)
 - [glue/sst2] SST2.ipynb (full dataset + sample)
 - [glue/mrpc] MRPC.ipynb
 - [super_glue/copa] hf-copa.ipynb, Sample-copa.ipynb
+
